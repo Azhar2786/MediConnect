@@ -13,7 +13,7 @@ import Footer from './components/Footer'
 
 const App = () => {
   return (
-    <div className='mx-4 sm:max-[10%]'>
+    <div className='mx-9 sm:max-[10%]'>
       <Navbar />
       <Routes>
         <Route path='/' element={<Home />}></Route>
